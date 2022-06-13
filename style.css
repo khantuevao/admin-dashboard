@@ -3,7 +3,6 @@ body {
 }
 
 .container {
-  border: 1px solid black;
   display: grid;
   grid-template-columns: minmax(260px, 1fr) 4fr;
   grid-template-rows: 1fr 5fr;
@@ -260,6 +259,7 @@ a:active {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
   align-self: flex-end;
+  margin-bottom: -4rem;
 }
 
 .right-card.bot {
